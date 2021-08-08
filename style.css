@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+li {
+  margin: 1em;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo {
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid orangered;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+footer {
+}
