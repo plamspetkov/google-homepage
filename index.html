@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <nav class="nav flex space">
+      <nav class="nav">
         <ul class="navbar__secondary">
           <li>
             <a href="#">About</a>
@@ -52,16 +52,28 @@
           alt="Google Logo"
         />
       </div>
-      <div class="search__form">
-        <input type="search" />
+      <div class="searchbar">
+        <img
+          class="search-icon icon"
+          src="./icons/search_black_24dp.svg"
+          alt="lupe icon"
+        />
+        <input class="search-input" type="search" />
+        <a href="#">
+          <img
+            class="mic-icon icon"
+            src="./icons/mic_black_24dp.svg"
+            alt="microphone icon"
+          />
+        </a>
       </div>
       <div class="search__btn">
         <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
       </div>
     </main>
-    <footer class="flex space">
-      <ul class="menu--ads">
+    <footer>
+      <ul class="menu__ads">
         <li>
           <a href="#">Advertising</a>
         </li>
@@ -72,7 +84,7 @@
           <a href="#">How Search works</a>
         </li>
       </ul>
-      <ul class="menu--private">
+      <ul class="menu__private">
         <li>
           <a href="#">Privacy</a>
         </li>
